@@ -26,8 +26,7 @@ for i in range(iteration):
 
     c += error * learning_rate
     m += train_set[i % len(train_set), 0] * error * learning_rate
-
-
+print(c)
 print('comparison in training set:')
 print('prediction vs actual salary')
 for d in train_set:
